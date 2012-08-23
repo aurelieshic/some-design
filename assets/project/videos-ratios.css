@@ -1,0 +1,131 @@
+/*---------------embeds....the big deal---------------------*/
+
+[class*='span']>.block-embed,
+[class*='span']>.video-js{
+    overflow: hidden;
+}
+
+.span2>.block-embed,
+.span2>.video-js{
+    width: 100%;
+    height: 70px;
+}
+.span3>.block-embed,
+.span3>.video-js{
+    width: 100%;
+    height: 120px;
+}
+.span4>.block-embed,
+.span4>.video-js{
+    width: 100%;
+    height: 160px;
+}
+.span5>.block-embed,
+.span5>.video-js{
+    width: 100%;
+    height: 210px;
+}
+.span6>.block-embed,
+.span6>.video-js{
+    width: 100%;
+    height: 250px;
+}
+.span7>.block-embed,
+.span7>.video-js{
+    width: 100%;
+    height: 300px;
+}
+.span8>.block-embed,
+.span8>.video-js{
+    width: 100%;
+    height: 340px;
+}
+.span9>.block-embed,
+.span9>.video-js{
+    width: 100%;
+    height: 380px;
+}
+.span10>.block-embed,
+.span10>.video-js{
+    width: 100%;
+    height: 430px;
+}
+.span11>.block-embed,
+.span11>.video-js{
+    width: 100%;
+    height: 480px;
+}
+.span12>.block-embed,
+.span12>.video-js{
+    width: 100%;
+    height: 520px;
+}
+
+@media (min-width: 1200px){
+    .span2>.block-embed,
+    .span2>.video-js{
+        width: 100%;
+        height: 90px;
+    }
+    .span3>.block-embed,
+    .span3>.video-js{
+        width: 100%;
+        height: 140px;
+    }
+    .span4>.block-embed,
+    .span4>.video-js{
+        width: 100%;
+        height: 200px;
+    }
+    .span5>.block-embed,
+    .span5>.video-js{
+        width: 100%;
+        height: 260px;
+    }
+    .span6>.block-embed,
+    .span6>.video-js{
+        width: 100%;
+        height: 320px;
+    }
+    .span7>.block-embed,
+    .span7>.video-js{
+        width: 100%;
+        height: 370px;
+    }
+    .span8>.block-embed,
+    .span8>.video-js{
+        width: 100%;
+        height: 420px;
+    }
+    .span9>.block-embed,
+    .span9>.video-js{
+        width: 100%;
+        height: 480px;
+    }
+    .span10>.block-embed,
+    .span10>.video-js{
+        width: 100%;
+        height: 540px;
+    }
+    .span11>.block-embed,
+    .span11>.video-js{
+        width: 1060px;
+        height: 590px;
+    }
+    .span12>.block-embed,
+    .span12>.video-js{
+        width: 100%;
+        height: 650px;
+    }
+
+}
+@media (max-width: 767px) {
+    [class*="span"]>.block-embed,
+    [class*="span"]>.video-js {
+        float: none;
+        display: block;
+        margin: 0; 
+        width: 300px;
+        height: 170px;
+    }
+}

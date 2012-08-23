@@ -1,0 +1,21 @@
+.block{
+    display: block;
+}
+.relative{
+    position:relative;
+}
+.absolute{
+    position:absolute;
+}
+.posB0{
+    bottom:0;
+}
+.posR0{
+    right:0;
+}
+.posT0{
+    top:0;
+}
+.posL0{
+    left:0;
+}
