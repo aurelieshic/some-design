@@ -1,21 +1,6 @@
-body{
-    background: #000;
-    font-size: 13px;
-    line-height: 18px;
-    color: #C8CACE;
-}
+@headerHeight:90px;
 
-
-
-
-
-
-
-
-
-
-/*---------------------------layout product--------------------*/
-
+/*---------------------------global----------------------------*/
 .fixed-footer{
     height:30px;
     background-color: #666;
@@ -24,6 +9,9 @@ body{
     width: 100%;
 
 }
+/*---------------------------layout product--------------------*/
+
+
 
 .fixed-bookmarks{
    width:20px;
@@ -37,7 +25,7 @@ body{
     position: absolute;
     top:0px;
     width: 100%;
-    height:70px;
+    height:@headerHeight;
 }
 .fixed-header{
     position: absolute;
@@ -53,7 +41,7 @@ body{
 }
 
 .top-full-screen{
-    top:70px;
+    top:@headerHeight;
     bottom: 30px;
     position: absolute;
     width: 100%;
@@ -87,35 +75,7 @@ body{
 /*-----------------end layout product-------------------*/
 
 
-.button-1{
-    position: relative;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.button-1 .in{
-    position: relative;
-    z-index:2;
-}
-.button-1 .bg{
-    z-index: 1;
-    
-    left:-10px;
-    right:0px;
-    top:-0px;
-    bottom:0px;
-    position: absolute;
-    
-    background-color: none;
-    -webkit-transition: background-color 0.2s ;
-    -moz-transition: background-color 0.2s ;
-    -ms-transition: background-color 0.2s ;
-    -o-transition: background-color 0.2s ;
-    transition: background-color 0.2s ;
-}
-.button-1:hover .bg,
-.button-1.active .bg{
-   background-color: #222;
-}
+
 
 
 .bookmark-btn{
@@ -127,25 +87,19 @@ body{
 
 
 
-
-
-
-
-
-
-.main-menu > *{
+.fl-right{
+    float: right;
+}
+.fl-left{
     float: left;
-    margin-right: 20px;
-    margin-top: 50px;
 }
 
-.logo{
-    margin-top: 10px;
-    width: 140px;
-    height: 56px;
-    background-image: url('img/piaget-white.gif');
-    
+
+.grid-test {
+ border-bottom:1px solid #333;
 }
+
+
 
 
 

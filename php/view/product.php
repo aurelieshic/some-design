@@ -34,15 +34,15 @@ $nbRub=7;
 		<div class="" data-ui-fixed="true" data-ui-top="10" data-ui-bottom="10">
 		    <div class="row">
 			<div class="span3">
-			    <div class="row">
+			    <ul class="tab-menu">
 				<?for($i=0;$i<$nbRub;$i++):?>
-				    <div class="button-1 span3" data-section-target="section-<?=$i?>">
-					<div class="fs2 in"> Menu <?=$i?> </div>
+				    <li class="tab-button span3" data-section-target="section-<?=$i?>">
+					<a href="#" class="in"> Menu <?=$i?> </a>
 					<div class="bg"></div>
-				    </div>
+				    </li>
 				<?endfor?>
 
-			    </div>
+			    </ul>
 			</div>
 		    </div>
 

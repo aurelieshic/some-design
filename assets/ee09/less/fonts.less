@@ -1,0 +1,112 @@
+.helvet{
+    font-family:'HelveticaNeueLTStd37ThCn',cursive;
+}
+.helvetSystem{
+    font-family:Helvetica, Arial, sans-serif;
+}
+.didot{
+    font-family:georgia;
+}
+.arial{
+    font-family:arial;
+}
+.verdana{
+    font-family:verdana;
+}
+.default-font{
+    font-family:cursive;
+}
+
+
+
+
+
+
+.fs0{
+    .default-font;
+}
+.fs1{
+    .default-font;
+}
+.fs2{
+    .default-font;
+}
+*{
+    .default-font;
+}
+
+
+
+
+.fs-banner-title{
+    .helvet;
+    .textColor(1);
+    font-size:36px;
+}
+.fs-page-title{
+    .didot;
+    .textColor(1);
+    font-size:24px;
+    line-height:30px;
+    .borderColor(3);
+}
+.fs-section-title{
+    .didot;
+    .textColor(1);
+    font-size:16px;
+    line-height:24px;
+    .borderColor(3);
+}
+.fs-subtitle{
+    .helvetica;
+    .textColor(1);
+    font-size:12px;
+    line-height:24px;
+    .borderColor(3);
+}
+.fs-description-1{
+    .helvetSystem;
+    .textColor(2);
+    font-size:12px;
+    
+}
+.fs-description-2{
+    .arial;
+    .textColor(2);
+    font-size:12px;
+    
+}
+.fs-indications{
+    .verdana;
+    .textColor(4);
+    font-size:10px;
+    
+}
+
+//-----------------------links------------------------------
+
+a{
+    text-transform:uppercase;
+    .arial;
+    font-size:10px;
+    .textColor(1);
+}
+.active a,
+a:hover{
+    .textColor(2);
+}
+
+.fs-description-1 a{
+    .fs-description-2;
+    text-transform:none;
+}
+.fs-description-2 a{
+    .fs-description-1;
+    text-transform:none;
+}
+
+//------------------------defaults------------------------------
+
+p{
+.fs-description-1;
+}

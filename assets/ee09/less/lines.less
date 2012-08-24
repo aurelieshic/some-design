@@ -1,0 +1,37 @@
+//----------------margins,paddings,height---------------
+
+.mt(@i){
+    margin-top:@i*@line;
+}
+.mb(@i){
+    margin-bottom:@i*@line;
+}
+.pt(@i){
+    padding-top:@i*@line;
+}
+.pb(@i){
+    padding-bottom:@i*@line;
+}
+.height(@i){
+    height:@i*@line;
+}
+
+.generateLines(@index) when (@index >= 0) {
+        
+	(~".mt@{index}") {.mt(@index);}
+	(~".mtNeg@{index}") {.mt(-@index);}
+        
+	(~".mb@{index}") {.mb(@index);}
+	(~".mbNeg@{index}") {.mb(-@index);}
+
+	(~".pt@{index}") {.pt(@index);}
+	(~".pb@{index}") {.pb(@index);}
+
+	(~".height@{index}") {.height(@index);}
+	(~".heightNeg@{index}") {.height(-@index);}
+	// next iteration
+	.generateLines(@index - 1);
+}
+
+
+.generateLines(20);

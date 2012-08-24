@@ -1,0 +1,36 @@
+// menu onglet à gauche
+
+.tab-menu {
+    background-color:red;
+    .reset;
+}
+
+.tab-menu .tab-button{
+    .reset;
+    position: relative;    
+}
+.tab-menu .tab-button a{
+    position: relative;
+    z-index:2;
+    .textColor(2);
+}
+.tab-menu .tab-button .bg{
+    z-index: 1;
+    left:-10px;
+    right:0px;
+    top:-0px;
+    bottom:0px;
+    position: absolute;
+    
+    background-color: none;
+    .transition(e('background-color 0.5s linear'));
+}
+.tab-menu .tab-button a:hover,
+.tab-menu .tab-button.active a{
+    text-decoration:none;
+    .textColor(1);
+}
+.tab-menu .tab-button:hover .bg,
+.tab-menu .tab-button.active .bg{
+    .bgGreyDark(1);
+}
